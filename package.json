@@ -1,0 +1,19 @@
+{
+  "name": "opencode_plugin",
+  "private": true,
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.17.9",
+    "@types/bun": "latest",
+    "@types/minimatch": "^6.0.0",
+    "@types/node": "^26.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "minimatch": "^10.2.5"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
